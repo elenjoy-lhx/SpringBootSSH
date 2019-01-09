@@ -1,0 +1,17 @@
+package com.lhx.util;
+
+import java.util.Comparator;
+
+/**
+ * map 按key 排序
+ * author: wangfucheng 
+ * date: 2016-8-3
+ */
+public class MapKeyComparator implements Comparator<String>{
+
+	@Override
+	public int compare(String str1, String str2) {
+		return str1.compareTo(str2);
+	}
+
+}
