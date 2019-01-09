@@ -18,6 +18,7 @@ public class TestAction {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
 		String str = "[{\"path\":\"level0_0/\",\"value\":\"value\",\"children\":[{\"path\":\"level0_0/level1_0/\",\"value\":\"value\",\"children\":[{\"path\":\"level0_0/level1_0/level2_0\",\"value\":\"value\",\"children\":[]},{\"path\":\"level0_0/level1_0/level2_1\",\"value\":\"value\",\"children\":[]},{\"path\":\"level0_0/level1_0/level2_1\",\"value\":\"value\",\"children\":[]}]},{\"path\":\"level0_0/level1_1/\",\"value\":\"value\",\"children\":[{\"path\":\"level0_0/level1_1/level2_0\",\"value\":\"value\",\"children\":[]},{\"path\":\"level0_0/level1_1/level2_1\",\"value\":\"value\",\"children\":[]},{\"path\":\"level0_0/level1_1/level2_1\",\"value\":\"value\",\"children\":[]}]}]},{\"path\":\"level0_1/\",\"value\":\"avaluerg\",\"children\":[]}]";
 		JSONArray jsonlist = JSONArray.fromObject(str);
 		findName = "level0_0/level1_1/level2_0";
